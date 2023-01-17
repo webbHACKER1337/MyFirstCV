@@ -1,0 +1,80 @@
+
+body{
+    background-color: beige
+}
+
+#meny{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    border: 2px dotted gray;
+    margin: 15px;
+}
+
+.välja_meny{
+    padding: 20px;
+    color: blue;
+    border: 3px solid black;
+    background-color: lightgray;
+    
+}
+
+#lista_om_mig{
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+
+
+.kontaktuppgifter {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border: solid 5px gray;
+    border-radius: 20px ;
+    width: 250px;
+    
+
+
+}
+
+#list_kontaktuppgifter{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+    padding-top: 10px;
+    
+}
+
+#telephone_icon{
+    position: absolute;
+    left: 10px;
+    bottom: 158px;
+}
+
+#email_icon{
+    position: absolute;
+    left: 10px;
+    bottom: 90px;
+    
+
+}
+
+
+#location_icon{
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
+
+#anställa{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: solid 5px grey;
+    border-radius: 1px;
+    padding: 5px;
+
+}
